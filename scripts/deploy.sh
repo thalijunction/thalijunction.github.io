@@ -12,11 +12,9 @@ cd $project_path
 
 #cp -f $downloads_path/todaymenu.pdf $project_path/menus/$today_date.pdf
 
-#rm -f $downloads_path/todaymenu.png $downloads_path/todaymenu.pdf
-
 git status
 git add .
 git commit -m"updated today's menu"
 git push -u origin master
-thalijunction
 
+rm -f $downloads_path/todaymenu.png $downloads_path/todaymenu.pdf
