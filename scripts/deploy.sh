@@ -8,7 +8,7 @@ echo $today_date
 cd $project_path
 
 cp -f $downloads_path/todaymenu.png $project_path/images/menus/$today_date.png
-cp -f $downloads_path/todaymenu.png $project_path/images/menus/todaymenu.png
+cp -f $downloads_path/todaymenu.png $project_path/images/todaymenu.png
 
 cp -f $downloads_path/todaymenu.pdf $project_path/menus/$today_date.pdf
 
