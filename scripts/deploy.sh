@@ -17,5 +17,5 @@ git add .
 git commit -m"updated today's menu"
 git push -u origin master
 
-rm -f $downloads_path/todaymenu.png $downloads_path/todaymenu.pdf
+#rm -f $downloads_path/todaymenu.png $downloads_path/todaymenu.pdf
 
